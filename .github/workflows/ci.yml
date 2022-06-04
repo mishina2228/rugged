@@ -3,9 +3,6 @@ name: Rugged CI
 on:
   pull_request:
   push:
-    branches:
-    - master
-    - maint/*
 
 jobs:
   macOS:
